@@ -2,3 +2,26 @@ html {
   height: 100%;
   width: 100%;
 }
+
+.header-area .main-menu .nav-bar .nav-bar-brand {
+  padding: 0 2rem 0 5rem; 
+}
+
+.header-area .main-menu .nav-bar {
+  padding: 1rem 20rem;
+}
+
+.header-area .main-menu .nav-item .nav-link {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  padding: 1.0rem;
+}
+
+.header-area .main-menu .navbar-nav .active a {
+  color: darkgray;
+}
+
+.header-area .main-menu .navbar-nav a:hover {
+  background-color: darkgray;
+}
