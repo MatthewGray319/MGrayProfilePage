@@ -33,6 +33,13 @@ html {
   padding: 20px;
 }
 
+.about-image {
+  width:550px;
+  height:auto;
+  display: flex;
+  justify-content: right;
+}
+
 .site-main .site-banner .site-title h3 {
   padding-top: 10%;
   padding-bottom: 0%;
@@ -47,6 +54,16 @@ html {
   margin-left: 5%;
 }
 
+.skills-title {
+  text-align: center;
+  font: normal bold 49px/60px Arial;
+}
+
+.hard-skills {
+  text-align: center;
+  font: normal bold 25px Arial;
+}
+
 @media only screen and (min-width: 992px) {
 .title-text {
   margin-left: 100px;
@@ -54,7 +71,11 @@ html {
 
 .btn {
   margin-left: 200px;
-} 
+}
+
+.about-image {
+  margin-left: 320px;
+}
 }
 
 .site-main .about-title  {
