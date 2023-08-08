@@ -44,6 +44,11 @@ html {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.about-para {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+}
+
 .site-main .site-banner .site-title h3 {
   padding-top: 10%;
   padding-bottom: 0%;
@@ -61,7 +66,8 @@ html {
 .skills-title {
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 49px;
+  font-size: 59px;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
@@ -69,18 +75,23 @@ html {
   text-align: center;
   font: normal bold 25px Arial;
 }
+.newspaper {
+font-style: italic;  
+}
 
-table
-    {
-        table-layout: fixed;
-        word-break: break-all;
-        border-collapse: collapse;
-        width:80%;
-    }
+.skills-table {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
 td
     {
-        height:50px;
-        border: 1px solid;
+      height:50px;
+      border: 1px solid;
+      border-color: black;
+      text-align: center;
+      background-color: #8bc34a;
+      color: black;
     }
 
 @media only screen and (min-width: 1600px) {
