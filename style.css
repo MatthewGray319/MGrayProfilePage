@@ -34,6 +34,7 @@ html {
 }
 
 .about-image {
+  padding-top: 100px;
   width:550px;
   height:auto;
   display: flex;
@@ -41,6 +42,7 @@ html {
 }
 
 .about-title {
+  padding-top: 100px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -90,10 +92,32 @@ td
       border: 1px solid;
       border-color: black;
       text-align: center;
-      background-color: #8bc34a;
+      /*  background-color: #8bc34a; */
       color: black;
     }
 
+tr:hover {
+  background-color: coral;
+}
+
+.projects-title {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 59px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 100px;
+}
+
+.projects-image {
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+
+.make-bold {
+  font-weight: bold;
+}
 @media only screen and (min-width: 1600px) {
 .title-text {
   margin-left: 100px;
