@@ -27,7 +27,7 @@ html {
 }
 
 .my-pic {
-  width: 300px;
+  width: 400px;
   height: auto;
   border-radius: 10%;
   padding: 20px;
@@ -118,6 +118,36 @@ tr:hover {
 .make-bold {
   font-weight: bold;
 }
+
+.contact-title {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 59px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 100px;
+}
+
+.contact .form-control {
+  border-radius: 0;
+}
+
+.contact .form-control:focus {
+  box-shadow: none;
+  border-color: green;
+} 
+
+.submit-button {
+  background-color: green;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  font-size: 22px;
+}
+
+.lower-padding {
+  padding-bottom: 300px;
+}
+    
 @media only screen and (min-width: 1600px) {
 .title-text {
   margin-left: 100px;
