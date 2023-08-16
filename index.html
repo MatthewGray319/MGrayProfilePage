@@ -25,19 +25,19 @@
 
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="#id_home">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#id_about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Skills</a>
+          <a class="nav-link" href="#id_skills">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
+          <a class="nav-link" href="#id_portfolio">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#id_contact">Contact</a>
         </li>
       </ul>
   
@@ -50,7 +50,7 @@
   
   <!--------------------------------- End Header ---------------------------->
   <!--------------------------------- Start Main ---------------------------->
-<main class="site-main">
+<main class="site-main" id="id_home">
 
   <!----------------------------- Start Banner ------------------------------>
 <section class="site-banner">
@@ -60,7 +60,7 @@
         <h3 class="title-text">Hey</h3>
         <h1 class="title-text text-uppercase">I am Matthew</h1>
         <h4 class="title-text text-uppercase">Junior Front-end Developer</h4>
-<button type="button" class="title-text btn btn-outline-secondary">Get Resume</button>
+<button type="button" class="title-text btn btn-outline-secondary"><a href="M.Gray Resume.pdf" class="resume-button" download>Get Resume</a></button>
       </div>
       <div class="col-lg-6 col-md-12"><img src="img/1516857692324-removebg-preview.png" class="my-pic img-fluid" alt="My picture"</div>
     </div>
@@ -72,7 +72,7 @@
   
   <!------------------------------- End Banner ------------------------------>
   <!------------------------------- Start About ------------------------------>
-<section class="about">
+<section class="about" id="id_about">
   <div class="container-fluid">
     <div class="row justify-center align-center">
       <div class="col-lg-6 col-md-12">
@@ -101,7 +101,7 @@
   
   <!------------------------------- End About ------------------------------>
     <!------------------------------- Skills ------------------------------>
-<section class="skills">
+<section class="skills" id="id_skills">
   <div class="container-fluid">
     <div class="row justify-center align-center">
       <h2 class="skills-title">Programming Skills</h2>
@@ -144,7 +144,7 @@
 </section>
     <!------------------------------- End Skills ------------------------------>
   <!------------------------------- Portfolio ------------------------------>
-<section class="portfolio">
+<section class="portfolio" id="id_portfolio">
   <div class="container-fluid">
     <div class="row justify-center align-center">
       <h2 class="projects-title">Projects</h2>
@@ -179,35 +179,35 @@ Created an application for keeping track of tasks.</h4>
   </div>
 </section>
 <!------------------------------- Contact ------------------------------>
-<section class="contact">
+<section class="contact" id="id_contact">
     <div class="container-fluid">
  <div class="row justify-center align-center">
         <h2 class="contact-title">Contact</h2>
         </br>
       </div>
       <div class="row">
-        <form action="#" class="row g-3">
+        <form action="https://formsubmit.co/matthewcharlesgray319@gmail.com" method="post" class="row g-3">
           <div class="form-group col-lg-2">
           </div>
           <div class="form-group col-lg-4 name-form">
-            <input type="text" class="form-control" placeholder="Name" width=10%>
+            <input type="text" class="form-control" name="name" placeholder="Name" required width=10%>
           </div>
           <div class="form-group col-lg-4 email-form">
-            <input type="email" class="form-control" placeholder="Email" width=10%>
+            <input type="email" class="form-control" name="email" placeholder="Email" required width=10%>
           </div>
           <div class="form-group col-lg-2">
           </div>
           <div class="form-group col-lg-2">
           </div>
           <div class="form-group col-lg-8">
-            <input type="text" class="form-control" placeholder="Enter subject">
+            <input type="text" class="form-control" name="subject" placeholder="Enter subject" required>
           </div>
           <div class="form-group col-lg-2">
           </div>
           <div class="form-group col-lg-2">
           </div>
           <div class="form-group col-lg-8">
-            <textarea name="" class="form-control" placeholder="Enter your message" rows="4"></textarea>
+            <textarea class="form-control" name="message" placeholder="Enter your message" rows="4"></textarea>
           </div>
           <div class="form-group col-lg-2">
           </div>       
@@ -223,46 +223,43 @@ Created an application for keeping track of tasks.</h4>
         </form>
       </div>
 
-         
+    </div> 
 </section>
 
-
-
-
-
-
-
-
-  <!-- 
-        <div class="row justify-center align-center">
-        <h2 class="contact-title">Contact</h2>
-        </br>
-      </div>
-      <div class="row justify-content-center">
-        <form action="#" class="row">
-          <div class="form-group col-lg-6 name-form">
-            <input type="text" class="form-control" placeholder="Name" width=10%>
-          </div>
-          <div class="form-group col-lg-6 email-form">
-            <input type="email" class="form-control" placeholder="Email" width=10%>
-          </div>
-          <div class="form-group col-lg-12">
-            <input type="text" class="form-control" placeholder="Enter subject.">
-          </div>
-          <div class="form-group col-lg-12">
-            <textarea name="" class="form-control" placeholder="Enter your message." rows="4"></textarea>
-          </div>
-          <div class="form-group col-lg-12">
-            <button name="" class="btn btn-brand">Send message.</button>
-          </div>
-        </form> 
-
-  -->
   <!------------------------------- End Portfolio ------------------------------>
 </main>
   
   <!--------------------------------- End Main ------------------------------>
+
+  <!--------------------------------- Start Footer ------------------------------>
+<footer class="footer-area">
+  <div class="container">
+    <div class="justify-content-center">
+      <div class="sociala text-center py-4 pt-5">
+        <a href="https://github.com/MatthewGray319"><i class="fa-brands fa-github" style="color: green"></i></a>
+        <a href="https://www.linkedin.com/in/matthewcharlesgray/"><i class="fa-brands fa-linkedin" style="color: green"></i></a>
+        <a href="tel:2167721334"><i class="fa-solid fa-phone" style="color: green"></i></a>
+      </div>
+      <div class="copyrights text-center">
+        <p class="para">Copyright <i class="fa-regular fa-copyright"></i>2023 All rights reserved.</p>
+        <div>
+        
+    </div>
+  </div>
+        
+
+
+
+
+
+  
+</footer>
+
+
+
+  <!--------------------------------- End Footer ------------------------------>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/8feb16786a.js" crossorigin="anonymous"></script>
   <script src="script.js"></script>
 
   <!--

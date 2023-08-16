@@ -33,6 +33,11 @@ html {
   padding: 20px;
 }
 
+.resume-button {
+  text-decoration: none;
+  color: black;
+}
+
 .about-image {
   padding-top: 100px;
   width:550px;
@@ -145,7 +150,16 @@ tr:hover {
 }
 
 .lower-padding {
-  padding-bottom: 300px;
+  padding-bottom: 150px;
+}
+
+footer .footer-area {
+  padding: 5rem 0;
+}
+
+.sociala {
+  font-size: 35px;
+  letter-spacing: 10px;
 }
     
 @media only screen and (min-width: 1600px) {
@@ -158,9 +172,11 @@ tr:hover {
 }
 
 .about-image {
-  margin-left: 250px;
+  margin-left: 200px;
 }
+  
 }
+
 
 .site-main .about-title  {
   padding: 2rem 1rem;
@@ -174,4 +190,11 @@ tr:hover {
 .table {
   border: 10px;
   border-color: gray;
+}
+
+@media only screen and (max-width: 1600px) {
+.about-title, .about-image {
+  margin-left: 100px;
+}
+  
 }
